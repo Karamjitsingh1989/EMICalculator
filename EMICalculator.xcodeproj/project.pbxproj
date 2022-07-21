@@ -56,6 +56,21 @@
 		852554E4288987E30047E47E /* EMICalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8525550728898D0B0047E47E /* Utilities */,
+				8525550628898CF60047E47E /* Resources */,
+				8525550528898CB00047E47E /* Extensions */,
+				8525550428898C7B0047E47E /* Routing */,
+				8525550328898C5A0047E47E /* Enums */,
+				8525550228898C4E0047E47E /* Services */,
+				8525550128898C420047E47E /* views */,
+				8525550028898C2F0047E47E /* Storyboards */,
+				852554FF28898C150047E47E /* NetworkRequest */,
+				852554FE28898BF60047E47E /* ViewControllers */,
+				852554FD28898BDC0047E47E /* ViewModels */,
+				852554FC28898BD40047E47E /* Model */,
+				852554FB28898B8E0047E47E /* Localization */,
+				852554FA28898B860047E47E /* Classes */,
+				852554F928898B710047E47E /* Config */,
 				852554E5288987E30047E47E /* AppDelegate.swift */,
 				852554E7288987E30047E47E /* SceneDelegate.swift */,
 				852554E9288987E30047E47E /* ViewController.swift */,
@@ -65,6 +80,111 @@
 				852554F3288987E70047E47E /* Info.plist */,
 			);
 			path = EMICalculator;
+			sourceTree = "<group>";
+		};
+		852554F928898B710047E47E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		852554FA28898B860047E47E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		852554FB28898B8E0047E47E /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		852554FC28898BD40047E47E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		852554FD28898BDC0047E47E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		852554FE28898BF60047E47E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		852554FF28898C150047E47E /* NetworkRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkRequest;
+			sourceTree = "<group>";
+		};
+		8525550028898C2F0047E47E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8525550128898C420047E47E /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8525550228898C4E0047E47E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8525550328898C5A0047E47E /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		8525550428898C7B0047E47E /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		8525550528898CB00047E47E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8525550628898CF60047E47E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8525550728898D0B0047E47E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
