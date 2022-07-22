@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8508D33C288AC44B00EF0FC4 /* SwiftLintFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 8508D33B288AC44B00EF0FC4 /* SwiftLintFramework */; };
+		8508D33E288AC44B00EF0FC4 /* swiftlint in Frameworks */ = {isa = PBXBuildFile; productRef = 8508D33D288AC44B00EF0FC4 /* swiftlint */; };
 		852554E6288987E30047E47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852554E5288987E30047E47E /* AppDelegate.swift */; };
 		852554E8288987E30047E47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852554E7288987E30047E47E /* SceneDelegate.swift */; };
 		852554EA288987E30047E47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852554E9288987E30047E47E /* ViewController.swift */; };
@@ -14,6 +16,8 @@
 		852554EF288987E70047E47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852554EE288987E70047E47E /* Assets.xcassets */; };
 		852554F2288987E70047E47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852554F0288987E70047E47E /* LaunchScreen.storyboard */; };
 		8525550A288997290047E47E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85255509288997290047E47E /* Localizable.strings */; };
+		8525550C28899C920047E47E /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8525550B28899C920047E47E /* Dashboard.storyboard */; };
+		8525550E288A84350047E47E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525550D288A84350047E47E /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,8 @@
 		852554F1288987E70047E47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852554F3288987E70047E47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85255509288997290047E47E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		8525550B28899C920047E47E /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		8525550D288A84350047E47E /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8508D33C288AC44B00EF0FC4 /* SwiftLintFramework in Frameworks */,
+				8508D33E288AC44B00EF0FC4 /* swiftlint in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +131,7 @@
 		852554FE28898BF60047E47E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8525550D288A84350047E47E /* DashboardViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 		8525550028898C2F0047E47E /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				8525550B28899C920047E47E /* Dashboard.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -206,6 +216,10 @@
 			dependencies = (
 			);
 			name = EMICalculator;
+			packageProductDependencies = (
+				8508D33B288AC44B00EF0FC4 /* SwiftLintFramework */,
+				8508D33D288AC44B00EF0FC4 /* swiftlint */,
+			);
 			productName = EMICalculator;
 			productReference = 852554E2288987E30047E47E /* EMICalculator.app */;
 			productType = "com.apple.product-type.application";
@@ -234,6 +248,9 @@
 				Base,
 			);
 			mainGroup = 852554D9288987E30047E47E;
+			packageReferences = (
+				8508D33A288AC44B00EF0FC4 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 852554E3288987E30047E47E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -249,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				852554F2288987E70047E47E /* LaunchScreen.storyboard in Resources */,
+				8525550C28899C920047E47E /* Dashboard.storyboard in Resources */,
 				8525550A288997290047E47E /* Localizable.strings in Resources */,
 				852554EF288987E70047E47E /* Assets.xcassets in Resources */,
 				852554ED288987E30047E47E /* Main.storyboard in Resources */,
@@ -265,6 +283,7 @@
 				852554EA288987E30047E47E /* ViewController.swift in Sources */,
 				852554E6288987E30047E47E /* AppDelegate.swift in Sources */,
 				852554E8288987E30047E47E /* SceneDelegate.swift in Sources */,
+				8525550E288A84350047E47E /* DashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +501,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8508D33A288AC44B00EF0FC4 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8508D33B288AC44B00EF0FC4 /* SwiftLintFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8508D33A288AC44B00EF0FC4 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = SwiftLintFramework;
+		};
+		8508D33D288AC44B00EF0FC4 /* swiftlint */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8508D33A288AC44B00EF0FC4 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = swiftlint;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 852554DA288987E30047E47E /* Project object */;
 }
